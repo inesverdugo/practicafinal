@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<title>Buscador FDA</title>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>"FDA"</title>
+</head>
+<body style = "background-color: #85E3FF">
+  <fieldset>
+      <legend>Buscador FDA:</legend>
+
+<form action = "/listDrugs" method="get">
+  <input type="submit" value="Listar fármacos">
+    Limite: <input type="text" name="limit" value="1">
+</form>
+
+<form action = "/ListCompanies" method="get">
+  <input type="submit" value="Listar empresas">
+</form>
+
+<form action = "/SearchDrug" method="get">
+  <input type="submit" value="Buscar fármaco">
+    Campo: <input type="text" name="Principio activo" value="">
+</form>
+
+<form action = "/SearchCompany" method="get">
+  <input type="submit" value="Buscar empresas">
+    Campo: <input type="text" name="Nombre empresaa" value="">
+</form>
+
+</body>
+</html>
